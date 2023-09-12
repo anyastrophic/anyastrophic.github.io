@@ -75,7 +75,7 @@ export default function Home() {
             <div className={`w-[10rem] h-[0.05rem] ${styles._rainbowDivider}`}></div>
           </h2>
           <h3 className="self-center text-sm mt-4 text-zinc-400">
-            <a className="font-bold text-xl">“</a><i>NEVER BACK DOWN NEVER WHAT</i><a className="font-bold text-xl">„</a><br/>
+            <a className="font-bold text-xl">“</a><i>NEVER GIVE UP NEVER WHAT</i><a className="font-bold text-xl">„</a><br/>
           </h3>
           <div className="flex self-center items-center mt-6">
             <img
