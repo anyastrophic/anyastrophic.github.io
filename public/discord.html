@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-
-<html>
-
-  <head>
-  </head>
-
-  <body>
-
-    <p>Redirecting...</p>
-
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
     <script>
-      window.location.href = "discord://-/invite/AavfcRxDFU";
-      window.location.href = "https://discord.com/invite/AavfcRxDFU";
+        var redirectToApp = function() {
+            setTimeout(function appNotInstalled() {
+                window.location.replace("https://discord.com/invite/AavfcRxDFU");
+            }, 100);
+            window.location.replace("discord://-/invite/AavfcRxDFU");
+        };
+        window.onload = redirectToApp;
     </script>
-
-  </body>
-
+</head>
+<body></body>
 </html>
+
