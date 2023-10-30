@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background-image: url("../../public/bg.png");
+    height: 100%;
+}
+
+.profilebg {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    min-width: 600px;
+    border-radius: 1rem;
+    backdrop-filter: blur(40px);
+}
+
+.status {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border-radius: 1rem;
+    backdrop-filter: blur(40px);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 94%;
+    height: 0%;
+    text-align: left;
+    display: flex;
+}
+
+.pfp {
+    border-radius: 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+}
+
+.album-art {
+    height: 90px;
+    border-radius: 1rem;
+    transform: translate(5%, 5%);
+}
+
+.popout {
+    transform: translateZ(20px);
+}
+
+.image-gallery {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 2.9rem;
+    /* justify-content: space-between; */
+}
+
+progress {
+    color: hsl(271, 100%, 40%);
+}
+
+progress::-moz-progress-bar {
+    background: hsl(271, 100%, 65%);
+}
