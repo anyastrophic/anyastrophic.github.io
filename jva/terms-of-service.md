@@ -15,3 +15,4 @@ By using our "Jailbreak Value Assistant", further "the bot" or "our bot", you ag
 * Privacy: We respect your privacy and handle your data in accordance with our Privacy Policy.
 
 By using our bot, you acknowledge that you have read, understood, and agree to be bound by these terms.
+
