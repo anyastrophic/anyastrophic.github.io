@@ -1,6 +1,6 @@
 # Terms of Service
 
-By using our Discord bot, you agree to abide by the following terms:
+By using our "Jailbreak Value Assistant", further "the bot" or "our bot", you agree to abide by the following terms:
 
 * Data Storage: Our bot stores user IDs and guild IDs solely for the purpose of maintaining functionality. User IDs are stored to blacklist bad actors if necessary, while guild IDs are stored to associate configuration files with individual guilds.
 
